@@ -1,0 +1,98 @@
+body {
+  background-color: #C3C3C3;
+}
+
+
+
+h1,
+h2,
+h3 {
+font-family: 'Rubik', sans-serif;
+color: #4C4B63;
+font-size: 40px;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+a {
+  font-size: 70px;
+  color: #4C4B63;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #4C4B63;
+  color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.btn:hover {
+  background-color: #ABA8B2;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 15px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+}
+
+
+
+/*
+#5386E4 - light blue
+#4C4B63 - dark grey
+#949396 - dark grey
+#ABA8B2 - medium grey
+#C3C3C3 - light grey
+
+#ABA8B2
+*/
+  /*<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:700&display=swap" rel="stylesheet">}*/
